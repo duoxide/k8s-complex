@@ -1,0 +1,221 @@
+I0113 15:57:51.566436       1 flags.go:64] FLAG: --add_dir_header="false"
+I0113 15:57:51.566526       1 flags.go:64] FLAG: --address="0.0.0.0"
+I0113 15:57:51.566535       1 flags.go:64] FLAG: --allocate-node-cidrs="false"
+I0113 15:57:51.566541       1 flags.go:64] FLAG: --allow-untagged-cloud="false"
+I0113 15:57:51.566548       1 flags.go:64] FLAG: --alsologtostderr="false"
+I0113 15:57:51.566553       1 flags.go:64] FLAG: --authentication-kubeconfig=""
+I0113 15:57:51.566560       1 flags.go:64] FLAG: --authentication-skip-lookup="false"
+I0113 15:57:51.566564       1 flags.go:64] FLAG: --authentication-token-webhook-cache-ttl="10s"
+I0113 15:57:51.566570       1 flags.go:64] FLAG: --authentication-tolerate-lookup-failure="false"
+I0113 15:57:51.566575       1 flags.go:64] FLAG: --authorization-always-allow-paths="[/healthz,/readyz,/livez]"
+I0113 15:57:51.566588       1 flags.go:64] FLAG: --authorization-kubeconfig=""
+I0113 15:57:51.566593       1 flags.go:64] FLAG: --authorization-webhook-cache-authorized-ttl="10s"
+I0113 15:57:51.566599       1 flags.go:64] FLAG: --authorization-webhook-cache-unauthorized-ttl="10s"
+I0113 15:57:51.566603       1 flags.go:64] FLAG: --bind-address="0.0.0.0"
+I0113 15:57:51.566608       1 flags.go:64] FLAG: --cert-dir=""
+I0113 15:57:51.566613       1 flags.go:64] FLAG: --cidr-allocator-type="RangeAllocator"
+I0113 15:57:51.566618       1 flags.go:64] FLAG: --client-ca-file=""
+I0113 15:57:51.566622       1 flags.go:64] FLAG: --cloud-config=""
+I0113 15:57:51.566626       1 flags.go:64] FLAG: --cloud-provider="aws"
+I0113 15:57:51.566696       1 flags.go:64] FLAG: --cluster-cidr="10.32.0.0/12"
+I0113 15:57:51.566709       1 flags.go:64] FLAG: --cluster-name="kubernetes"
+I0113 15:57:51.566713       1 flags.go:64] FLAG: --concurrent-service-syncs="1"
+I0113 15:57:51.566719       1 flags.go:64] FLAG: --configure-cloud-routes="true"
+I0113 15:57:51.566724       1 flags.go:64] FLAG: --contention-profiling="false"
+I0113 15:57:51.566728       1 flags.go:64] FLAG: --controller-start-interval="0s"
+I0113 15:57:51.566732       1 flags.go:64] FLAG: --controllers="[*]"
+I0113 15:57:51.566744       1 flags.go:64] FLAG: --enable-leader-migration="false"
+I0113 15:57:51.566748       1 flags.go:64] FLAG: --external-cloud-volume-plugin=""
+I0113 15:57:51.566754       1 flags.go:64] FLAG: --feature-gates=""
+I0113 15:57:51.566811       1 flags.go:64] FLAG: --help="false"
+I0113 15:57:51.566816       1 flags.go:64] FLAG: --http2-max-streams-per-connection="0"
+I0113 15:57:51.566822       1 flags.go:64] FLAG: --kube-api-burst="30"
+I0113 15:57:51.566833       1 flags.go:64] FLAG: --kube-api-content-type="application/vnd.kubernetes.protobuf"
+I0113 15:57:51.566862       1 flags.go:64] FLAG: --kube-api-qps="20"
+I0113 15:57:51.566871       1 flags.go:64] FLAG: --kubeconfig=""
+I0113 15:57:51.566875       1 flags.go:64] FLAG: --leader-elect="true"
+I0113 15:57:51.566922       1 flags.go:64] FLAG: --leader-elect-lease-duration="15s"
+I0113 15:57:51.566928       1 flags.go:64] FLAG: --leader-elect-renew-deadline="10s"
+I0113 15:57:51.566937       1 flags.go:64] FLAG: --leader-elect-resource-lock="leases"
+I0113 15:57:51.566942       1 flags.go:64] FLAG: --leader-elect-resource-name="cloud-controller-manager"
+I0113 15:57:51.566947       1 flags.go:64] FLAG: --leader-elect-resource-namespace="kube-system"
+I0113 15:57:51.566952       1 flags.go:64] FLAG: --leader-elect-retry-period="2s"
+I0113 15:57:51.566956       1 flags.go:64] FLAG: --leader-migration-config=""
+I0113 15:57:51.566961       1 flags.go:64] FLAG: --log-flush-frequency="5s"
+I0113 15:57:51.566974       1 flags.go:64] FLAG: --log_backtrace_at=":0"
+I0113 15:57:51.567166       1 flags.go:64] FLAG: --log_dir=""
+I0113 15:57:51.567174       1 flags.go:64] FLAG: --log_file=""
+I0113 15:57:51.567179       1 flags.go:64] FLAG: --log_file_max_size="1800"
+I0113 15:57:51.567184       1 flags.go:64] FLAG: --logtostderr="true"
+I0113 15:57:51.567189       1 flags.go:64] FLAG: --master=""
+I0113 15:57:51.567196       1 flags.go:64] FLAG: --min-resync-period="12h0m0s"
+I0113 15:57:51.567202       1 flags.go:64] FLAG: --node-monitor-period="5s"
+I0113 15:57:51.567207       1 flags.go:64] FLAG: --node-status-update-frequency="5m0s"
+I0113 15:57:51.567212       1 flags.go:64] FLAG: --node-sync-period="0s"
+I0113 15:57:51.567265       1 flags.go:64] FLAG: --one_output="false"
+I0113 15:57:51.567270       1 flags.go:64] FLAG: --permit-address-sharing="false"
+I0113 15:57:51.567275       1 flags.go:64] FLAG: --permit-port-sharing="false"
+I0113 15:57:51.567284       1 flags.go:64] FLAG: --port="0"
+I0113 15:57:51.567289       1 flags.go:64] FLAG: --profiling="true"
+I0113 15:57:51.567294       1 flags.go:64] FLAG: --requestheader-allowed-names="[]"
+I0113 15:57:51.567305       1 flags.go:64] FLAG: --requestheader-client-ca-file=""
+I0113 15:57:51.567309       1 flags.go:64] FLAG: --requestheader-extra-headers-prefix="[x-remote-extra-]"
+I0113 15:57:51.567322       1 flags.go:64] FLAG: --requestheader-group-headers="[x-remote-group]"
+I0113 15:57:51.567331       1 flags.go:64] FLAG: --requestheader-username-headers="[x-remote-user]"
+I0113 15:57:51.567339       1 flags.go:64] FLAG: --route-reconciliation-period="10s"
+I0113 15:57:51.567343       1 flags.go:64] FLAG: --secure-port="10258"
+I0113 15:57:51.567376       1 flags.go:64] FLAG: --skip_headers="false"
+I0113 15:57:51.567382       1 flags.go:64] FLAG: --skip_log_headers="false"
+I0113 15:57:51.567389       1 flags.go:64] FLAG: --stderrthreshold="2"
+I0113 15:57:51.567393       1 flags.go:64] FLAG: --tls-cert-file=""
+I0113 15:57:51.567398       1 flags.go:64] FLAG: --tls-cipher-suites="[]"
+I0113 15:57:51.567416       1 flags.go:64] FLAG: --tls-min-version=""
+I0113 15:57:51.567420       1 flags.go:64] FLAG: --tls-private-key-file=""
+I0113 15:57:51.567425       1 flags.go:64] FLAG: --tls-sni-cert-key="[]"
+I0113 15:57:51.567435       1 flags.go:64] FLAG: --use-service-account-credentials="false"
+I0113 15:57:51.567440       1 flags.go:64] FLAG: --v="2"
+I0113 15:57:51.567449       1 flags.go:64] FLAG: --version="false"
+I0113 15:57:51.567457       1 flags.go:64] FLAG: --vmodule=""
+I0113 15:57:51.979195       1 serving.go:348] Generated self-signed cert in-memory
+I0113 15:57:52.927778       1 requestheader_controller.go:244] Loaded a new request header values for RequestHeaderAuthRequestController
+W0113 15:57:52.932335       1 client_config.go:617] Neither --kubeconfig nor --master was specified.  Using the inClusterConfig.  This might not work.
+I0113 15:57:52.938500       1 aws.go:1300] Building AWS cloudprovider
+I0113 15:57:52.938595       1 aws.go:1260] Zone not specified in configuration file; querying AWS metadata service
+I0113 15:57:59.397996       1 tags.go:77] AWS cloud filtering on ClusterID: true
+I0113 15:57:59.401024       1 aws.go:1407] The following IP families will be added to nodes: [ipv4]
+I0113 15:57:59.401184       1 controllermanager.go:144] Version: v0.0.0-master+$Format:%H$
+I0113 15:57:59.408844       1 tlsconfig.go:200] "Loaded serving cert" certName="Generated self signed cert" certDetail="\"localhost@1673625471\" [serving] validServingFor=[127.0.0.1,localhost,localhost] issuer=\"localhost-ca@1673625471\" (2023-01-13 14:57:51 +0000 UTC to 2024-01-13 14:57:51 +0000 UTC (now=2023-01-13 15:57:59.408813325 +0000 UTC))"
+I0113 15:57:59.409079       1 configmap_cafile_content.go:201] "Starting controller" name="client-ca::kube-system::extension-apiserver-authentication::client-ca-file"
+I0113 15:57:59.409264       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+I0113 15:57:59.409368       1 named_certificates.go:53] "Loaded SNI cert" index=0 certName="self-signed loopback" certDetail="\"apiserver-loopback-client@1673625472\" [serving] validServingFor=[apiserver-loopback-client] issuer=\"apiserver-loopback-client-ca@1673625472\" (2023-01-13 14:57:51 +0000 UTC to 2024-01-13 14:57:51 +0000 UTC (now=2023-01-13 15:57:59.409281766 +0000 UTC))"
+I0113 15:57:59.409560       1 secure_serving.go:200] Serving securely on [::]:10258
+I0113 15:57:59.409934       1 leaderelection.go:248] attempting to acquire leader lease kube-system/cloud-controller-manager...
+I0113 15:57:59.409044       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController
+I0113 15:57:59.411372       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController
+I0113 15:57:59.409066       1 configmap_cafile_content.go:201] "Starting controller" name="client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"
+I0113 15:57:59.410853       1 tlsconfig.go:240] "Starting DynamicServingCertificateController"
+I0113 15:57:59.411762       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file
+I0113 15:57:59.509505       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file 
+I0113 15:57:59.509938       1 tlsconfig.go:178] "Loaded client CA" index=0 certName="client-ca::kube-system::extension-apiserver-authentication::client-ca-file,client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file" certDetail="\"kubernetes\" [] validServingFor=[kubernetes] issuer=\"<self>\" (2023-01-10 11:49:03 +0000 UTC to 2033-01-07 11:49:03 +0000 UTC (now=2023-01-13 15:57:59.509906155 +0000 UTC))"
+I0113 15:57:59.510197       1 tlsconfig.go:200] "Loaded serving cert" certName="Generated self signed cert" certDetail="\"localhost@1673625471\" [serving] validServingFor=[127.0.0.1,localhost,localhost] issuer=\"localhost-ca@1673625471\" (2023-01-13 14:57:51 +0000 UTC to 2024-01-13 14:57:51 +0000 UTC (now=2023-01-13 15:57:59.510172082 +0000 UTC))"
+I0113 15:57:59.510412       1 named_certificates.go:53] "Loaded SNI cert" index=0 certName="self-signed loopback" certDetail="\"apiserver-loopback-client@1673625472\" [serving] validServingFor=[apiserver-loopback-client] issuer=\"apiserver-loopback-client-ca@1673625472\" (2023-01-13 14:57:51 +0000 UTC to 2024-01-13 14:57:51 +0000 UTC (now=2023-01-13 15:57:59.510392439 +0000 UTC))"
+I0113 15:57:59.511683       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController 
+I0113 15:57:59.512795       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file 
+I0113 15:57:59.513156       1 tlsconfig.go:178] "Loaded client CA" index=0 certName="client-ca::kube-system::extension-apiserver-authentication::client-ca-file,client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file" certDetail="\"kubernetes\" [] validServingFor=[kubernetes] issuer=\"<self>\" (2023-01-10 11:49:03 +0000 UTC to 2033-01-07 11:49:03 +0000 UTC (now=2023-01-13 15:57:59.513133559 +0000 UTC))"
+I0113 15:57:59.513198       1 tlsconfig.go:178] "Loaded client CA" index=1 certName="client-ca::kube-system::extension-apiserver-authentication::client-ca-file,client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file" certDetail="\"front-proxy-ca\" [] validServingFor=[front-proxy-ca] issuer=\"<self>\" (2023-01-10 11:49:05 +0000 UTC to 2033-01-07 11:49:05 +0000 UTC (now=2023-01-13 15:57:59.513180714 +0000 UTC))"
+I0113 15:57:59.513373       1 tlsconfig.go:200] "Loaded serving cert" certName="Generated self signed cert" certDetail="\"localhost@1673625471\" [serving] validServingFor=[127.0.0.1,localhost,localhost] issuer=\"localhost-ca@1673625471\" (2023-01-13 14:57:51 +0000 UTC to 2024-01-13 14:57:51 +0000 UTC (now=2023-01-13 15:57:59.513337451 +0000 UTC))"
+I0113 15:57:59.513522       1 named_certificates.go:53] "Loaded SNI cert" index=0 certName="self-signed loopback" certDetail="\"apiserver-loopback-client@1673625472\" [serving] validServingFor=[apiserver-loopback-client] issuer=\"apiserver-loopback-client-ca@1673625472\" (2023-01-13 14:57:51 +0000 UTC to 2024-01-13 14:57:51 +0000 UTC (now=2023-01-13 15:57:59.513486376 +0000 UTC))"
+I0113 15:58:14.577159       1 leaderelection.go:258] successfully acquired lease kube-system/cloud-controller-manager
+I0113 15:58:14.578119       1 event.go:294] "Event occurred" object="kube-system/cloud-controller-manager" kind="Lease" apiVersion="coordination.k8s.io/v1" type="Normal" reason="LeaderElection" message="aws-cloud-controller-manager-6d5f2_8a7a027a-e72b-485f-b8ab-68102477b256 became leader"
+I0113 15:58:14.595326       1 aws.go:826] Setting up informers for Cloud
+I0113 15:58:14.595366       1 controllermanager.go:279] Starting "cloud-node"
+I0113 15:58:14.595560       1 node_controller.go:116] Sending events to api server.
+I0113 15:58:14.595675       1 controllermanager.go:298] Started "cloud-node"
+I0113 15:58:14.595694       1 controllermanager.go:279] Starting "cloud-node-lifecycle"
+I0113 15:58:14.595847       1 node_lifecycle_controller.go:77] Sending events to api server
+I0113 15:58:14.595887       1 controllermanager.go:298] Started "cloud-node-lifecycle"
+I0113 15:58:14.595904       1 controllermanager.go:279] Starting "service"
+I0113 15:58:14.596180       1 controllermanager.go:298] Started "service"
+I0113 15:58:14.596200       1 controllermanager.go:279] Starting "route"
+I0113 15:58:14.596365       1 controllermanager.go:298] Started "route"
+I0113 15:58:14.596848       1 route_controller.go:101] Starting route controller
+I0113 15:58:14.596867       1 shared_informer.go:240] Waiting for caches to sync for route
+I0113 15:58:14.596931       1 node_controller.go:155] Waiting for informer caches to sync
+I0113 15:58:14.597013       1 controller.go:233] Starting service controller
+I0113 15:58:14.597023       1 shared_informer.go:240] Waiting for caches to sync for service
+I0113 15:58:14.599850       1 controller.go:265] Node changes detected, triggering a full node sync on all loadbalancer services
+I0113 15:58:14.697028       1 shared_informer.go:247] Caches are synced for route 
+I0113 15:58:14.697291       1 shared_informer.go:247] Caches are synced for service 
+I0113 15:58:14.698525       1 controller.go:403] Ensuring load balancer for service ingress-nginx/ingress-nginx-controller
+I0113 15:58:14.698693       1 controller.go:912] Adding finalizer to service ingress-nginx/ingress-nginx-controller
+I0113 15:58:14.700163       1 controller.go:741] Syncing backends for all LB services.
+I0113 15:58:14.700344       1 controller.go:804] Updating backends for load balancer ingress-nginx/ingress-nginx-controller with node set: map[ip-10-0-1-253:{}]
+W0113 15:58:14.701252       1 instances.go:115] unable to parse ProviderID "aws" for node "ip-10-0-1-253"
+I0113 15:58:14.701934       1 event.go:294] "Event occurred" object="ingress-nginx/ingress-nginx-controller" kind="Service" apiVersion="v1" type="Normal" reason="EnsuringLoadBalancer" message="Ensuring load balancer"
+I0113 15:58:14.711315       1 aws.go:4163] EnsureLoadBalancer(kubernetes, ingress-nginx, ingress-nginx-controller, eu-central-1, , [{http TCP 0xc0008fa630 80 {1 0 http} 32607} {https TCP 0xc0008fa640 443 {1 0 https} 30987}], map[kubectl.kubernetes.io/last-applied-configuration:{"apiVersion":"v1","kind":"Service","metadata":{"annotations":{"service.beta.kubernetes.io/aws-load-balancer-backend-protocol":"tcp","service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled":"true","service.beta.kubernetes.io/aws-load-balancer-type":"nlb"},"labels":{"app.kubernetes.io/component":"controller","app.kubernetes.io/instance":"ingress-nginx","app.kubernetes.io/name":"ingress-nginx","app.kubernetes.io/part-of":"ingress-nginx","app.kubernetes.io/version":"1.5.1"},"name":"ingress-nginx-controller","namespace":"ingress-nginx"},"spec":{"externalTrafficPolicy":"Local","ipFamilies":["IPv4"],"ipFamilyPolicy":"SingleStack","ports":[{"appProtocol":"http","name":"http","port":80,"protocol":"TCP","targetPort":"http"},{"appProtocol":"https","name":"https","port":443,"protocol":"TCP","targetPort":"https"}],"selector":{"app.kubernetes.io/component":"controller","app.kubernetes.io/instance":"ingress-nginx","app.kubernetes.io/name":"ingress-nginx"},"type":"LoadBalancer"}}
+ service.beta.kubernetes.io/aws-load-balancer-backend-protocol:tcp service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled:true service.beta.kubernetes.io/aws-load-balancer-type:nlb])
+W0113 15:58:14.711386       1 instances.go:115] unable to parse ProviderID "aws" for node "ip-10-0-1-253"
+E0113 15:58:14.770566       1 node_controller.go:242] Error getting instance metadata for node addresses: error fetching node by provider ID: Invalid format for AWS instance (aws), and error by node name: getInstanceByNodeName failed for "ip-10-0-1-253" with "instance not found"
+I0113 15:58:14.781412       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:14.781419       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:14.781551       1 route_controller.go:304] Patching node status ip-10-0-1-253 with false previous condition was:&NodeCondition{Type:NetworkUnavailable,Status:False,LastHeartbeatTime:2023-01-13 13:22:13 +0000 UTC,LastTransitionTime:2023-01-13 13:22:13 +0000 UTC,Reason:WeaveIsUp,Message:Weave pod has set this,}
+I0113 15:58:14.781652       1 route_controller.go:304] Patching node status ip-10-0-1-99 with false previous condition was:&NodeCondition{Type:NetworkUnavailable,Status:False,LastHeartbeatTime:2023-01-13 13:22:13 +0000 UTC,LastTransitionTime:2023-01-13 13:22:13 +0000 UTC,Reason:WeaveIsUp,Message:Weave pod has set this,}
+I0113 15:58:14.810739       1 instances.go:177] Not caching concurrent AWS DescribeInstances results
+E0113 15:58:14.821590       1 node_controller.go:242] Error getting instance metadata for node addresses: error fetching node by provider ID: Invalid format for AWS instance (aws), and error by node name: getInstanceByNodeName failed for "ip-10-0-1-99" with "instance not found"
+I0113 15:58:17.999536       1 aws_loadbalancer.go:183] Creating load balancer for ingress-nginx/ingress-nginx-controller with name: ad2d74b329999487fab10e24a6c2a3df
+I0113 15:58:18.050787       1 controller.go:748] Successfully updated 1 out of 1 load balancers to direct traffic to the updated set of nodes
+I0113 15:58:18.472710       1 aws_loadbalancer.go:585] Creating load balancer target group for ingress-nginx/ingress-nginx-controller with name: k8s-ingressn-ingressn-be6231356f
+I0113 15:58:18.638240       1 aws_loadbalancer.go:557] Creating load balancer listener for ingress-nginx/ingress-nginx-controller
+I0113 15:58:18.713876       1 aws_loadbalancer.go:585] Creating load balancer target group for ingress-nginx/ingress-nginx-controller with name: k8s-ingressn-ingressn-74ece9018f
+I0113 15:58:18.877450       1 aws_loadbalancer.go:557] Creating load balancer listener for ingress-nginx/ingress-nginx-controller
+I0113 15:58:18.985013       1 aws_loadbalancer.go:479] updating load-balancer attributes for "arn:aws:elasticloadbalancing:eu-central-1:795882039576:loadbalancer/net/ad2d74b329999487fab10e24a6c2a3df/e8e69fce06f8eb6f"
+I0113 15:58:19.253595       1 controller.go:953] Patching status for service ingress-nginx/ingress-nginx-controller
+I0113 15:58:19.254172       1 event.go:294] "Event occurred" object="ingress-nginx/ingress-nginx-controller" kind="Service" apiVersion="v1" type="Normal" reason="EnsuredLoadBalancer" message="Ensured load balancer"
+I0113 15:58:24.736919       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:24.737117       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:24.736953       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:24.737238       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:34.865448       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:34.865658       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:34.865471       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:34.866176       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:44.744712       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:44.744719       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:44.744731       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:44.744737       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:54.755435       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:54.755462       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:58:54.755483       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:58:54.755518       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:04.735919       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:04.736108       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:04.735929       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:04.736176       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:14.752383       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:14.752410       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:14.752392       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:14.752423       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:24.753307       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:24.753338       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:24.753353       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:24.753554       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:34.743864       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:34.743965       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:34.743869       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:34.744022       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:44.747395       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:44.747440       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:44.747402       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:44.747452       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:54.745842       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:54.745984       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 15:59:54.745856       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 15:59:54.746081       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:04.746464       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:04.746655       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:04.746497       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:04.746783       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:14.754575       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:14.754711       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:14.754583       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:14.754807       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:24.744397       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:24.744425       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:24.744436       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:24.744442       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:34.763215       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:34.763510       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:34.763483       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:34.763740       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:44.762946       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:44.763186       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:44.763104       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:44.763343       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:54.758405       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:54.758432       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:00:54.758416       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:00:54.758555       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:01:04.765703       1 route_controller.go:270] node ip-10-0-1-253 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:01:04.765726       1 route_controller.go:300] set node ip-10-0-1-253 with NodeNetworkUnavailable=true was canceled because it is already set
+I0113 16:01:04.765737       1 route_controller.go:270] node ip-10-0-1-99 has no routes assigned to it. NodeNetworkUnavailable will be set to true
+I0113 16:01:04.765742       1 route_controller.go:300] set node ip-10-0-1-99 with NodeNetworkUnavailable=true was canceled because it is already set
