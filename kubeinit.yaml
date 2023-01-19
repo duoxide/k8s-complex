@@ -11,7 +11,7 @@ controllerManager:
     configure-cloud-routes: "false"
 kubernetesVersion: v1.26.0
 ---
-apiVersion: kubeadm.k8s.io/v1beta2
+apiVersion: kubeadm.k8s.io/v1beta3
 kind: InitConfiguration
 nodeRegistration:
   kubeletExtraArgs:
